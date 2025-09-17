@@ -3,9 +3,9 @@
 ## Deskripsi
 
 Sistem Arsip Surat adalah aplikasi berbasis web untuk mengelola arsip surat secara digital.  
-Aplikasi ini memudahkan pengguna untuk **menyimpan, mencari, melihat, mengunduh, serta mengelola kategori surat** secara efisien.
+Aplikasi ini memudahkan pengguna untuk menyimpan, mencari, melihat, mengunduh, serta mengelola kategori surat secara efisien.
 
-Dibangun menggunakan **Laravel** dengan database **MySQL**, sistem ini ditujukan untuk membantu instansi/organisasi agar pengarsipan surat lebih rapi, aman, dan mudah diakses.
+Dibangun menggunakan Laravel dengan database MySQL, sistem ini ditujukan untuk membantu Desa Karangduren di Kecamatan Pakisaji agar pengarsipan surat lebih rapi, aman, dan mudah diakses.
 
 ---
 
@@ -37,7 +37,7 @@ Dibangun menggunakan **Laravel** dengan database **MySQL**, sistem ini ditujukan
 
 -   **Pencarian**
 
-    -   Cari surat berdasarkan **judul** atau **kategori**.
+    -   Cari surat berdasarkan judul arsip surat atau kategori surat.
 
 -   **UI/UX**
     -   Sidebar navigasi.
@@ -61,7 +61,6 @@ Dibangun menggunakan **Laravel** dengan database **MySQL**, sistem ini ditujukan
 -   PHP >= 8.1
 -   Composer
 -   MySQL
--   Node.js & NPM (opsional, untuk mix asset jika diperlukan)
 
 ---
 
