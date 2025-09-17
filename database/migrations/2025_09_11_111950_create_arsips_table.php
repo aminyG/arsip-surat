@@ -13,7 +13,13 @@ return new class extends Migration
     {
         Schema::create('arsips', function (Blueprint $table) {
             $table->id();
+            $table->string('nomor_surat', 100)->unique();
+            $table->string('judul');
+            $table->unsignedBigInteger('kategori_id')->nullable();
+            $table->string('file_path');
             $table->timestamps();
+
+            $table->foreign('kategori_id')->references('id')->on('kategoris')->onDelete('set null');
         });
     }
 

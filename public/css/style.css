@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#sidebar-wrapper {
+    width: 240px;
+    transition: width 0.3s;
+    overflow: hidden;
+}
+
+#sidebar-wrapper.collapsed {
+    width: 70px;
+}
+
+#sidebar-wrapper .sidebar-text {
+    transition: opacity 0.3s;
+}
+
+#sidebar-wrapper.collapsed .sidebar-text {
+    display: none;
+}
+
+#sidebar-wrapper .list-group-item i {
+    min-width: 20px;
+}
+
+#page-content-wrapper {
+    flex: 1;
+    transition: margin-left 0.3s;
+    margin-left: 240px;
+}
+
+#sidebar-wrapper.collapsed ~ #page-content-wrapper {
+    margin-left: 70px;
+}
+
+.navbar {
+    padding: 0.75rem 1rem;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 20px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 12px;
+    background: #2c3e50;
+    color: white;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.btn-primary {
+    background-color: #15567f;
+    border-color: #15567f;
+}
+
+.btn-primary:hover {
+    background-color: #0e3e57;
+    border-color: #0e3e57;
+}
+
+.btn-danger {
+    background-color: #962d22;
+    border-color: #962d22;
+}
+
+.btn-danger:hover {
+    background-color: #6e2119;
+    border-color: #6e2119;
+}
+
+.btn-warning {
+    background-color: #b9770e;
+    border-color: #b9770e;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #8a5b0a;
+    border-color: #8a5b0a;
+    color: #fff;
+}
+
+.about-page {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.about-photo img {
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+.about-info h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.about-info p {
+    margin: 4px 0;
+    line-height: 1.5;
+}
