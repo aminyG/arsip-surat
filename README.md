@@ -69,8 +69,8 @@ Dibangun menggunakan **Laravel** dengan database **MySQL**, sistem ini ditujukan
 
 1. **Clone Repository**
     ```bash
-    git clone https://github.com/username/sistem-arsip-surat.git
-    cd sistem-arsip-surat
+    git clone https://github.com/aminyG/arsip-surat.git
+    cd arsip-surat
     ```
 2. **Install Dependency**
     ```bash
