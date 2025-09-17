@@ -7,10 +7,10 @@
     <p>Berikut ini adalah kategori yang bisa digunakan untuk melabeli surat<br>
         Klik "Tambah" untuk menambahkan kategori baru.</p>
 
-    <form method="GET" action="{{ route('arsip.index') }}" class="d-flex mb-3">
+    <form method="GET" action="{{ route('kategori.index') }}" class="d-flex mb-3">
         <div class="input-group">
             <span class="input-group-text bg-white"><i class="fa-solid fa-magnifying-glass"></i></span>
-            <input type="text" name="search" class="form-control" placeholder="Cari surat..."
+            <input type="text" name="search" class="form-control" placeholder="Cari kategori..."
                 value="{{ request('search') }}">
             <button class="btn btn-primary" type="submit">Cari</button>
         </div>
